@@ -1,0 +1,13 @@
+{
+  "name": "hello-world-wasm",
+  "version": "1.0.0",
+  "description": "Hello World with Deno, Bun, and Guile WASM support",
+  "main": "hello.js",
+  "scripts": {
+    "deno": "deno run --allow-read hello.js",
+    "bun": "bun run hello.js",
+    "node": "node hello.js",
+    "compile-guile": "./compile-guile.sh"
+  },
+  "type": "module"
+}
